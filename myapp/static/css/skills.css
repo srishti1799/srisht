@@ -1,0 +1,191 @@
+.skills {
+	width: 100%;
+	height: auto;
+	background-color: #0A1018;
+	padding: 50px 100px 0px 0;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+
+.skills h1 {
+	font-size: xx-large;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	color: cornsilk;
+}
+
+.bar-container {
+	width: 70%;
+    height: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+}
+
+#bar-last {
+	margin-bottom: 0;
+}
+
+.html {
+	border-radius: 50px;
+	background-color: lemonchiffon;
+	width: 90%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: html 3s;
+}
+
+/*.css {*/
+/*	border-radius: 50px;*/
+/*	background-color: lemonchiffon;*/
+/*	width: 85%;*/
+/*	margin: 1.5px 2px 0;*/
+/*	height: 2px;*/
+/*	box-shadow: 0 0 15px 5px floralwhite;*/
+/*	animation: css 3s;*/
+/*}*/
+
+.bootstrap {
+	border-radius: 50px;
+	background-color: lemonchiffon;
+	width: 75%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: bootstrap 3s;
+}
+
+.js {
+	border-radius: 100px;
+	background-color: lemonchiffon;
+	width: 65%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: js 3s;
+}
+
+.jq {
+	border-radius: 50px;
+	background-color: lemonchiffon;
+	width: 70%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: jq 3s;
+}
+
+.py {
+	border-radius: 50px;
+	background-color: lemonchiffon;
+	width: 90%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: py 3s;
+}
+.django {
+	border-radius: 50px;
+	background-color: lemonchiffon;
+	width: 70%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: django 3s;
+}
+.flask {
+	border-radius: 50px;
+	background-color: lemonchiffon;
+	width: 80%;
+	margin: 1px 2px 0;
+	height: 2px;
+	box-shadow: 0 0 15px 5px floralwhite;
+	animation: flask 3s;
+}
+
+@keyframes html {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes css {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 85%;
+	}
+}
+
+@keyframes bootstrap {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 75%;
+	}
+}
+
+@keyframes js {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 65%;
+	}
+}
+
+@keyframes jq {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 70%;
+	}
+}
+
+@keyframes py {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes django {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 70%;
+	}
+}
+@keyframes flask {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 80%;
+	}
+}
+
+.skill-head {
+	margin-left: 15%;
+	font-family: consolas, sans-serif;
+	color: cornsilk;
+	margin-bottom: 20px;
+}

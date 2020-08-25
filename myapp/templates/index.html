@@ -1,0 +1,523 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Srishti mishra</title>
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" id="bootstrap-css">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/skills.css' %}">
+    <link rel="stylesheet" href="{% static 'css/work.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nav.css' %}">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--<link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/ico" sizes="16x16" style="border-radius: 8px;">-->
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+</head>
+
+<body>
+
+    <header id="header" style="padding-bottom: 300px;">
+        <a href="https://www.linkedin.com/" target="_blank">
+            <img src="{% static 'img/linkedin.png' %}" id="social-icon">
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="{% static 'img/instagram.png' %}" id="social-icon">
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="{% static 'img/facebook.png' %}" id="social-icon">
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+            <img style="background-color: white; border-radius: 4px;" src="{% static 'img/github-logo.png' %}" id="social-icon">
+        </a>
+
+
+        <div id="hero" data-aos="fade-up"data-aos-delay="500">
+            <H1>
+                myLife => function(){
+                <br>
+                <span class="func">
+                    eat();
+                </span>
+                <br>
+                <span class="func">
+
+                    code();
+                </span>
+                <br>
+                <span class="func">
+
+                    sleep();
+                </span>
+                <br>
+                <span class="func">
+
+                    repeat();
+                </span>
+                <span id="cursor">|</span>}
+
+            </H1>
+
+        </div>
+
+    </header>
+
+
+    <div id="nav-div" class="nav-div">
+
+        <button style="border: none;outline: none" class="hamburger hamburger--elastic" type="button" aria-label="Menu"
+            aria-controls="navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <nav id="navigation" class="nav-li">
+            <!--navigation goes here-->
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-skills">My Skills</a></li>
+                <li><a href="#my-work">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <section id="about-me">
+        <!-- <h1 id="h1">
+        About Me
+    </h1> -->
+        <!-- <br><br> -->
+
+
+        <div class="container portfolio" data-aos="flip-right" data-aos-delay="300">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <img src="https://image.ibb.co/cbCMvA/logo.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="bio-info">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="bio-image">
+                                    <img src="{% static 'img/avatar.jpg' %}" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bio-content">
+                            <h1>Hello universe I'm srishti mishra</h1>
+                            <h6>I'm pursuing B.Tech at SRIT Jabalpur in the Computer Science Department.
+                                <p></p>I am a fresher <strong>Web Developer</strong> and <strong>Python
+                                    Developer</strong>. I
+                                create
+                                custom websites. I'm skilled at writing well-designed, testable and efficient code using
+                                current best practices in Web
+                                development. I'm a fast learner, hard worker and team player who is proficient in making
+                                creative and innovative web pages.
+                            </h6>
+                            <p>I have no special talent, I'm just passionately curious ;)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my-skills">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="300">
+
+            <h1 style="color: cornsilk; margin-top: 50px">My Skills</h1>
+            <hr style=" background-color: cornsilk; ">
+            <div class="skills">
+
+                <h4 class="skill-head">HTML5/CSS3</h4>
+                <div id="ko" class="bar-container">
+                    <div id="html"></div>
+                </div>
+
+                <br>
+
+                <h4 class="skill-head">Bootstrap</h4>
+                <div class="bar-container">
+                    <div id="bootstrap"></div>
+                </div>
+
+                <br>
+
+                <h4 class="skill-head">JavaScript</h4>
+                <div class="bar-container">
+                    <div id="js"></div>
+                </div>
+
+                <br>
+
+                <h4 class="skill-head">JQuery</h4>
+                <div class="bar-container">
+                    <div id="jq"></div>
+                </div>
+
+                <br>
+
+                <h4 class="skill-head">Python</h4>
+                <div class="bar-container ">
+                    <div id="py"></div>
+                </div>
+
+                <br>
+
+                <h4 class="skill-head">Django</h4>
+                <div class="bar-container">
+                    <div id="django"></div>
+                </div>
+
+                <br>
+
+               
+        </div>
+
+    </section>
+
+    <section id="my-work" class="my-work">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="500">
+
+            <h1 style="color: cornsilk; ">My Work</h1>
+            <hr style="background-color: cornsilk; margin-bottom: 50px">
+
+            <section class="section-tours">
+                <div class="row">
+
+                    <!--################First Card ##################-->
+                    <!--################First Card ##################-->
+                    <!--################First Card ##################-->
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="my-flip-container">
+                            <div class="my-flip-inner my-flip-right">
+                                <div class="my-flip-inner-wrapper">
+                                    <div class="my-flip-side my-flip-front">
+                                        <div id="carouselExampleSlidesOnly" style="width: 100%;" data-interval='1000'
+                                            class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="{% static 'img/(9).png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/(10).png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/(11).png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/(6).png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/(7).png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="my-flip-details">
+                                            <h4 class="my-flip-heading">The Bag Street</h4>
+                                            <div class="my-flip-text">
+                                                <p>A full-fledged eCommerce website with the following features : </p>
+                                                <ul>
+                                                    <li>Login</li>
+                                                    <li>Register</li>
+                                                    <li>Home Page : Product List</li>
+                                                    <li>Shopping Cart</li>
+                                                    <li>Product Category Nav</li>
+                                                    <li>Payment Checkout</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-flip-side my-flip-back my-flip-back-1">
+                                        <div class="my-flip-back-inner">
+                                            <div class="my-flip-price">
+                                                <h4>Technologies Used</h4>
+                                            </div>
+                                            <div class="my-flip-back-text">
+
+                                                <ul>
+                                                    <li>HTML5</li>
+                                                    <li>CSS3</li>
+                                                    <li>JavaScript</li>
+                                                    <li>Flask</li>
+                                                    <li>Bootstrap</li>
+                                                </ul>
+                                            </div>
+                                            <div class="my-flip-btn-box"><a href="#0" class="my-flip-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--################Second Card ##################-->
+                    <!--################Second Card ##################-->
+                    <!--################Second Card ##################-->
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="my-flip-container">
+                            <div class="my-flip-inner my-flip-right">
+                                <div class="my-flip-inner-wrapper">
+                                    <div class="my-flip-side my-flip-front">
+                                        <div id="carouselExampleSlidesOnly" style="width: 100%;" data-interval='1000'
+                                            class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="{% static 'img/1.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/2.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/3.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/4.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/5.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/6.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/7.png' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="{% static 'img/8.pn' %}" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="my-flip-details">
+                                            <h4 class="my-flip-heading">TwittSent</h4>
+                                            <div class="my-flip-text">
+
+                                                <p>This is an ML-based desktop app that can be used to evaluate the
+                                                    <strong>sentiments</strong>
+                                                    of people based on their recent tweets.</p>
+                                                <p>It provides the following graphs</p>
+                                                <ul style="padding-top: 10px">
+                                                    <li>Pie Chart</li>
+                                                    <li>Line Chart</li>
+                                                    <li>Bar Chart</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-flip-side my-flip-back my-flip-back-2">
+                                        <div class="my-flip-back-inner">
+                                            <div class="my-flip-price">
+                                                <h4>Technologies Used</h4>
+                                            </div>
+                                            <div class="my-flip-back-text">
+
+                                                <ul>
+                                                    <li>HTML5</li>
+                                                    <li>CSS3</li>
+                                                    <li>JavaScript</li>
+                                                    <li>Python</li>
+                                                    <li>Bootstrap</li>
+                                                </ul>
+                                            </div>
+                                            <div class="my-flip-btn-box"><a href="#0" class="my-flip-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--################Third Card ##################-->
+                    <!--################Third Card ##################-->
+                    <!--################Third Card ##################-->
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="my-flip-container">
+                            <div class="my-flip-inner my-flip-right">
+                                <div class="my-flip-inner-wrapper">
+                                    <div class="my-flip-side my-flip-front">
+                                        <!--<div id="carouselExampleSlidesOnly" style="width: 100%;" data-interval='1000'
+                                         class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="img/(9).png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/(10).png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/(11).png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/(6).png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/(7).png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                        <div class="my-flip-details">
+                                            <h4 class="my-flip-heading">Project Under Development</h4>
+                                            <!--                                        <div class="my-flip-text">-->
+                                            <!--                                            <p>A full fledge ecommerce website with following features</p>-->
+                                            <!--                                            <ul>-->
+                                            <!--                                                <li>Login</li>-->
+                                            <!--                                                <li>Register</li>-->
+                                            <!--                                                <li>Home Page : Product List</li>-->
+                                            <!--                                                <li>Shopping Cart</li>-->
+                                            <!--                                                <li>Product Category Nav</li>-->
+                                            <!--                                                <li>Payment Checkout</li>-->
+                                            <!--                                            </ul>-->
+                                            <!--                                        </div>-->
+                                        </div>
+                                    </div>
+                                    <div class="my-flip-side my-flip-back my-flip-back-3">
+                                        <div class="my-flip-back-inner">
+                                            <div class="my-flip-price">
+                                                <!--                                            <h4>Technologies Used</h4>-->
+                                                <h4>Project Under Development</h4>
+                                            </div>
+                                            <!-- <div class="my-flip-back-text">
+
+                                            <ul>
+                                                <li>HTML5</li>
+                                                <li>CSS3</li>
+                                                <li>JavaScript</li>
+                                                <li>Flask</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                        </div>-->
+                                            <div class="my-flip-btn-box"><a href="#0" class="my-flip-btn">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section id="contact">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="300">
+            <h1>Contact Me</h1>
+            <hr style="background-color: cornsilk; margin-bottom: 50px">
+
+            <div class="container">
+
+                <form action="mailto:srijamishra9340083841@gmail.com" class="mx-auto" method="post" enctype="text/plain">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name"
+                                    required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-envelope"></span>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                        required="required" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Subject</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="na" selected="">Choose One:</option>
+                                    <option value="service">General Customer Service</option>
+                                    <option value="suggestions">Suggestions</option>
+                                    <option value="product">Product Support</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25"
+                                    required="required" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-primary pull-right" id="btnContactUs"
+                                value="Send Message">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="footer">
+        <h3>
+            <span id="heart">Designed and developed by
+                <a href="https://www.linkedin.com/in/mohammad-shahnwaz-husain" target="_blank"
+                    style="text-decoration: none">
+                    Srishti mishra </a></span>
+        </h3>
+    </section>
+
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+
+<script>
+    const navDiv = document.getElementById("nav-div");
+    const nav = document.getElementById("navigation");
+
+    let hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("is-active");
+        hamburger.classList.toggle("transparent");
+        navDiv.classList.toggle("nav-div-toggle");
+        nav.classList.toggle("nav-toggle");
+        // hamburger.style.backgroundColor = 'transparent'
+
+    });
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+</html>
